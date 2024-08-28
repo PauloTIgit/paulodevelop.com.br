@@ -1,6 +1,7 @@
-# Portfolio Profissional
+<div align="center">
+  <img src="/image/icon/logo.png" alt="logo PS" width="220px" height="220px">
+</div>
 
-![Logo](/image/icon/logo.png)
 
 Soluções tecnológicas personalizadas para empresas e indivíduos. Desenvolvimento de software, consultoria em TI e muito mais.
 
