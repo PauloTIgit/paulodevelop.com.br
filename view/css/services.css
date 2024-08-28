@@ -1,0 +1,111 @@
+.container-services{
+    height: 100vh;
+    background: var(--cor-grafit-50);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom:2rem;
+}
+
+.content-services{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.colun-text-description{
+    height: 90%;
+    width: 529px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: var(--font-montserra);
+}
+
+.colun-text-description .title-text{
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--cor-grafit-1000);
+    padding-bottom: 3rem;
+}
+
+.colun-text-description .description-text{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-grafit-500);
+}
+
+
+
+
+.container-card-services{
+    height: 90%;
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-item-card-services{
+    background: #ffffff;
+    padding: 20px 32px;
+    border-radius: 6px;
+    border: solid 6px #ffffff;
+    transition: border-left 0.3s ease;
+}
+
+.container-item-card-services#car-services-pry{
+    border-left: solid 6px var(--cor-ter-800);
+}
+
+.container-item-card-services#car-services-seg{
+    border-left: solid 6px var(--cor-seg-500);
+}
+
+.container-item-card-services#car-services-ter{
+    border-left: solid 6px var(--cor-pry-500) ;
+}
+
+.container-item-card-services .title-services{
+    font-family: var(--font-montserra);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
+.container-item-card-services .description-services{
+    font-family: var(--font-montserra);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-grafit-100);
+}
+
+.container-services .btn-services{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-services .btn-text {
+    font-family: var(--font-montserra);
+    margin-bottom: .5rem;
+    border: solid 1px var(--cor-pry-800);
+    border-radius: 6px;
+    background: var(--cor-pry-800);
+    color: #ffffff;
+    padding: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container-services .btn-text:hover {
+    background: none;
+    color: var(--cor-pry-800);
+}

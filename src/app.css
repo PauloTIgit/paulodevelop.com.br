@@ -1,0 +1,70 @@
+/** FONTS */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/** Configurações padrões */
+    * {
+        padding: 0;
+        margin: 0;
+        /* caret-color: transparent; */
+    }
+    p,h1,h2,h3,h4,h5,h6{
+        font-family: var(--font-montserra), sans-serif;
+    }
+    body{
+        position: relative;
+    }
+    #menu-mobile{
+        display: none;
+    }
+    #view{
+        padding-top: 105px;
+    }
+    .coockie{
+        display: none;
+    }
+
+/** Variaveis */
+    :root{
+        /** Cores whiteMode */
+        --cor-pry-100: #444444;
+        --cor-pry-500: #fdfdef;
+        --cor-pry-800: #faaa2a;
+        --cor-pry-1000: #602e8b;
+        --cor-seg-100: #353536;
+        --cor-seg-500: #8edbfc;
+        --cor-seg-800: #20b5f5;
+        --cor-seg-1000: #0588c0;
+        --cor-ter-100: #faf7f2;
+        --cor-ter-500: #FFEAC8;
+        --cor-ter-800: #ffcf83;
+        --cor-ter-1000: #faaa2a;
+        --cor-qua-800: #2B384C;
+        --cor-grafit-50: #F0F1F3;
+        --cor-grafit-70: #d6d6d6;
+        --cor-grafit-100: #999999;
+        --cor-grafit-500: #ababab;
+        --cor-grafit-800: #cccbd7;
+        --cor-grafit-1000: #333036;
+        --mode-white-1000: #fffeff;
+
+        /** Cores darkMode*/
+        --mode-dark-pry-100: #cdb1ff;
+        --mode-dark-pry-500: #9864ff;
+        --mode-dark-pry-800: #7c2db7;
+        --mode-dark-pry-1000: #4b1d61;
+        --mode-dark-seg-1000: #036191;
+        --mode-dark-ter-100: #e9e3dc;
+        --mode-dark-ter-500: #e5c3a2;
+        --mode-dark-ter-1000: #b97914;
+        --mode-dark-qua-500: #3a3737;
+        --mode-dark-qua-800: #292323;
+        --mode-dark-grafit-50: #F0F1F3;
+        --mode-dark-grafit-70: #d6d6d6;
+        --mode-dark-grafit-100: #999999;
+        --mode-dark-grafit-500: #5f5a5a;
+        --mode-dark-grafit-800: #47414d;
+        --mode-dark-grafit-1000: #1c1c1c;
+        --mode-dark-1000: #313131;
+        /* Fonte */
+            --font-montserra: "Montserrat Alternates", sans-serif;
+    }

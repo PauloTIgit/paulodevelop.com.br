@@ -1,0 +1,230 @@
+.container-contact{
+    height: 90vh;
+    background: var(--cor-grafit-50);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contact .content-contact{
+    z-index: 0;
+    height: 77vh;
+    width: 100%;
+    background: #fff;
+    padding: 33px;
+    margin-top: 8rem;
+    border-radius: 15px;
+    font-family: var(--font-montserra);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-contact .container-my-information{
+    width: 31rem;
+}
+
+.container-my-information .text-information .title-information{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--cor-grafit-1000);
+    margin-bottom: 2rem;
+}
+
+.container-my-information .text-information .description-information{
+    font-weight: 600;
+    color: var(--cor-grafit-500);
+    margin-bottom: 2rem;
+}
+
+.container-card {
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-card .link-card-my-information{
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container-card .link-card-my-information:hover {
+    box-shadow: 0 0 50px var(--cor-grafit-70);
+}
+
+.container-card .link-card-my-information:hover .card-icon{
+    color: #fff;
+    background: var(--cor-pry-800);
+}
+
+.container-card .item-card-my-information{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.item-card-my-information .card-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background: var(--cor-pry-100);
+    color: var(--cor-pry-800);
+    font-size: 2rem;
+    border-radius: 4px;
+    margin-right: 13px;
+}
+
+.item-card-my-information .card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 46px;
+}
+
+.card-description p:nth-child(1){
+    font-weight: 400;
+    color: var(--cor-grafit-100);
+}
+
+.card-description p:nth-child(2){
+    font-weight: 600;
+    color: var(--cor-grafit-500);
+}
+
+.container-my-information .container-social-media{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-my-information .container-social-media a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1rem;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    color: var(--cor-pry-800);
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+
+.container-my-information .container-social-media a:hover{
+    color: #fff;
+    background: var(--cor-pry-800);
+}
+
+
+.container-form-contact{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form-contact .form-contact-title{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-grafit-800);
+    margin-bottom: 2rem;
+}
+
+.container-form-contact .content-form-contact{
+    width: 100%;
+}
+
+.container-form-contact .content-form-contact .form-contact{
+    font-weight: 500;
+    color: var(--cor-grafit-100);
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 0;
+}
+
+
+.form-contact .form-label {
+    font-size: 1.3rem;
+    transform: translateY(1rem);
+    transition: color 0.3s;
+    transition: transform 0.2s;
+}
+
+.form-contact .input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-weight: 700;
+    color: var(--cor-pry-800);
+    font-size: 1.2rem;
+    outline: none;
+    transition: border-bottom-color 0.3s;
+    max-width: 542px;
+    background: none;
+}
+
+.form-contact .input:focus {
+    border: none;
+    border-bottom: solid 1px var(--cor-pry-800);
+    color: var(--cor-pry-800);
+    border-bottom-color: var(--cor-pry-800);
+}
+
+.form-contact .focused-label {
+    transform: translateY(0);
+    color: var(--cor-pry-100);
+    font-weight: 700;
+}
+
+/* Estilização para navegadores WebKit (Chrome, Safari) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* Estilização para Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+
+.container-form-contact .content-form-contact .box-form-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-form-contact .form-contact-budget {
+    margin-right: 1.5rem;
+}
+
+.btn-form-contact button{
+    margin-top: 2rem;
+    border-radius: 4px;
+    border: solid 1px var(--cor-pry-800);
+    background: var(--cor-pry-800);
+    color: #fff;
+    font-family: var(--font-montserra);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.btn-form-contact button:hover{
+    background: none;
+    border:  solid 1px var(--cor-pry-800);
+    color: var(--cor-pry-800);
+}
