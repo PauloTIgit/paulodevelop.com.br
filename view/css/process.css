@@ -1,10 +1,12 @@
 .container-process{
+    position: relative;
     height: calc(100vh - 182.21px);
     background: var(--cor-grafit-50);
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 10rem;
+    overflow: hidden;
 }
 
 .work-process{

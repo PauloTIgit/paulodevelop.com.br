@@ -29,6 +29,7 @@
     <div class="content-footer">
         <div class="copyright-footer">
             <p>Copyright © <?php echo date('Y') ?> Paulo Ferreira.</p>
+            <br>
             <p>Todos os direitos reservados.</p>
         </div>
     </div>

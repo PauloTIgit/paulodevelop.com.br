@@ -48,12 +48,14 @@ class Controller
                 $about = 'image/perfil/about.jpg';
                 $portfolio = 'image/portfolio/makeflix.png';
                 $coockie = 'image/data/coockie.png';
+                $c_basic = 'image/certificado/c_Basic.png';
                 $loading = 'image/loading/loading.gif';
                 $maintenance = 'image/maintenance/manutencao.gif';
                 $result = [
                     'perfil'        =>      $perfil,
                     'about'         =>      $about,
                     'portfolio'     =>      $portfolio,
+                    'c#Basic'       =>      $c_basic,
                     'coockie'       =>      $coockie,
                     'loading'       =>      $loading,
                     'maintenance'   =>      $maintenance,

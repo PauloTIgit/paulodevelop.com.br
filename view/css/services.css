@@ -40,9 +40,6 @@
     color: var(--cor-grafit-500);
 }
 
-
-
-
 .container-card-services{
     height: 90%;
     width: 38rem;
@@ -55,6 +52,7 @@
     background: #ffffff;
     padding: 20px 32px;
     border-radius: 6px;
+    margin: 1rem 0;
     border: solid 6px #ffffff;
     transition: border-left 0.3s ease;
 }
@@ -68,7 +66,7 @@
 }
 
 .container-item-card-services#car-services-ter{
-    border-left: solid 6px var(--cor-pry-500) ;
+    border-left: solid 6px #e7e705;
 }
 
 .container-item-card-services .title-services{

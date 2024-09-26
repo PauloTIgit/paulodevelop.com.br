@@ -8,7 +8,7 @@
 
 .container-contact .content-contact{
     z-index: 0;
-    height: 77vh;
+    height: auto;
     width: 100%;
     background: #fff;
     padding: 33px;
