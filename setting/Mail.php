@@ -7,12 +7,12 @@ require 'vendor/autoload.php';
 
 function enviarEmail($subject,$message){
     $subject = 'Nova Mensagem';
-    $user_email = 'pauloferreiradevs@gmail.com' ;
+    $user_email = 'email_a_receber' ;
     $user_nome = 'Paulo Ferreira';
-    $host = 'smtp.hostinger.com';
-    $port = '465';
-    $username = 'suporte@paulodevelop.com.br';
-    $password = '9BPCnV6Dz^Zg3&D';
+    $host = 'host.com';
+    $port = '123';
+    $username = 'email_remetente';
+    $password = 'senha_email';
 
 
     // Instancie o objeto do PHPMailera
