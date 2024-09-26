@@ -369,7 +369,9 @@ if ($imagens != []) {
 
                             }
                         </style>
-                        <div class="notification"></div>
+                        <div class="notification">
+
+                        </div>
                         <div class="btn-form-contact">
                             <button type="submit">Enviar <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
                         </div>
@@ -398,23 +400,27 @@ if ($imagens != []) {
                 data: formData,
                 dataType: 'json',
                 success: function(response) {
-                    if (response.sucesso) {
-                        $('.notification').addClass('sucesso').append('Mensagem enviada!');
+                    console.log(response);
+                    
+                    if (response.sucesso == true) {
+                        $('.notification').addClass('sucesso').html('<p>Mensagem enviada</p>');
                         console.log(response.mensagem);
                     } else {
                         $('.notification').addClass('erro').append('Erro interno, estamos ajustando');
                         console.log(response.mensagem);
                     }
-                    $('form')[0].reset(); // Opcional: limpa o formulário após o envio
+                    $('form')[0].reset();
                 },
                 error: function(xhr, status, error) {
                     $('.notification').addClass('erro').append('Erro interno, estamos ajustando');
                     console.log('Ocorreu um erro ao enviar a mensagem.');
                 },
                 complete: function() {
-                    // Restaura o conteúdo original do botão após o envio
                     $('.btn-form-contact').html('<button type="submit">Enviar <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>');
-                    $('.notification').empty()
+
+                    setTimeout(function() {
+                        $('.notification').fadeOut();
+                    }, 5000);
                 }
             });
         });

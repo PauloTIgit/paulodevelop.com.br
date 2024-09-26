@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-require "setting/Mail.php";
+require "./setting/Mail.php";
 
 function Validador($input)
 {
@@ -78,6 +78,10 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
           color: #333333;
           font-weight: 600;
         }
+          
+        p{
+          color: #333333;
+        }
       </style>
     </head>
     
@@ -87,7 +91,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
           <h1>Nova mensagem</h1>
         </div>
         <div class='content'>
-          <p>Mensagem vinda do site <a href='https://paulodevelop.com.br/'>paulodevelop.com.br</a>!</p>
+          <p>Mensagem vinda do site <a href='https://paulodevelop.com/'>paulodevelop.com</a>!</p>
           <hr>
           <p><span>Nome: </span> " . $nome . "</p>
           <p><span>E-mail:</span> " . $email . "</p>
@@ -108,7 +112,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
   if(enviarEmail($assunto, $message)){
     $resposta = [
       "sucesso" => true,
-      "mensagem" => '',
+      "mensagem" => 'Mensagem enviada',
     ];
 
   }else{

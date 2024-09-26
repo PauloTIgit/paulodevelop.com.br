@@ -166,7 +166,6 @@
     border: none;
     border-bottom: 1px solid #ccc;
     font-weight: 700;
-    color: var(--cor-pry-800);
     font-size: 1.2rem;
     outline: none;
     transition: border-bottom-color 0.3s;
@@ -177,7 +176,6 @@
 .form-contact .input:focus {
     border: none;
     border-bottom: solid 1px var(--cor-pry-800);
-    color: var(--cor-pry-800);
     border-bottom-color: var(--cor-pry-800);
 }
 

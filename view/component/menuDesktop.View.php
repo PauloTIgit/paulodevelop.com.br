@@ -221,8 +221,7 @@
 
 
     window.addEventListener('scroll', function() {
-        console.log(window.scrollY);
-        
+                
         if (window.scrollY > 1000) {
             document.querySelector('#menuHaburge').classList.add('scrolled');
             document.querySelector('#container_btnUp').classList.add('scrolled');
