@@ -1,0 +1,17 @@
+{
+  "name": "paulodevelop.com",
+  "version": "1.10.0",
+  "description": "Paulo Ferreira Soluções Tecnológicas.",
+  "main": "index.php",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloTIgit/paulodevelop.com.git"
+  },
+  "author": "Paulo Ferreira",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/PauloTIgit/paulodevelop.com/issues"
+  },
+  "homepage": "https://github.com/PauloTIgit/paulodevelop.com#readme"
+}

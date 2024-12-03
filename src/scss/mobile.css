@@ -1,0 +1,624 @@
+/* Estilos*/
+@media (max-width: 1366px) {
+    /* HOME */
+        .container-home{
+            background: radial-gradient(circle at 105% -27%, var(--cor-pry-100) 8%, var(--cor-seg-100) 32%, #161616 47%);
+        }
+    /* PROCESS */
+        .container-process {
+            height: auto;
+        }
+
+        .work-process {
+            width: 90%;
+            flex-direction: column;
+        }
+
+        .title-process {
+            font-size: 2rem;
+        }
+
+        .description-process {
+            font-size: 1rem;
+        }
+
+        .box-process {
+            padding: 0;
+            width: auto;
+            flex-direction: column;
+        }
+
+        .box-process .item-process:nth-child(2),
+        .box-process .item-process {
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0;
+        }
+        .item-process .container-item{
+            margin:2rem;
+        }
+
+        .item-process {
+            margin: 1rem 0;
+            padding: 0 1rem 0 0;
+        }
+
+        .container-item {
+            width: 16rem;
+            height: auto;
+            padding: 1.5rem;
+        }
+
+        .container-item i {
+            font-size: 2rem;
+            padding: 5px;
+        }
+
+        .container-item .title-item {
+            font-size: 1.2rem;
+            padding: 5px;
+        }
+
+        .container-item .description-item {
+            font-size: 1rem;
+            padding: 0;
+        }
+
+    .container-call-action .btn-call-action {
+        font-family: 800;
+        font-size: .6rem;
+    }
+
+    /* SERVICES  */
+        .container-services {
+            height: 100%;
+        }
+        
+        .content-services {
+            padding: 8rem 0 1rem 0;
+        }
+        .container-item-card-services{
+            margin: 1rem 0;
+        }
+           
+    /* CONTACT */
+    .container-contact {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 8rem 0 5rem 0;
+    }
+
+    .container-contact .content-contact {
+        width: 45%;
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .content-contact .container-my-information {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .container-my-information .text-information .title-information {
+        font-size: 2rem;
+    }
+
+    .item-card-my-information .card-description {
+        font-size: 1.2rem;
+        color: var(--cor-grafit-70);
+    }
+
+    .card-description p:nth-child(1),
+    .card-description p:nth-child(2) {
+        display: none;
+    }
+
+
+    .container-form-contact {
+        width: 90%;
+    }
+
+    .container-form-contact .content-form-contact .box-form-contact {
+        flex-direction: column;
+    }
+
+    /* FOOTER */
+    .container-footer {
+        height: 50%;
+    }
+
+    .container-footer .content-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .container-card {
+        flex-direction: row;
+        height: auto;
+        width: auto;
+    }
+
+    .logo-footer {
+        width: 100%;
+    }
+
+    .copyright-footer {
+        width: 100%;
+    }
+
+    .item-card-my-information .card-icon {
+        margin-right: 0;
+    }
+
+    .links-footer {
+        display: none;
+    }
+}
+
+/* Estilos*/
+@media (max-width: 986px) {
+    /* HOME */
+        .container-presentation {
+            justify-content: center;
+            align-items: center;
+        }
+    /* ABOUT */
+
+    /* PROCESS */
+
+    /* PORTFOLIO */
+
+    /* CALL */
+
+    /* SERVICES  */
+        .container-services {
+            justify-content: center;
+            padding: 2rem 1rem;
+            height: 150%;
+        }
+    
+        .content-services {
+            height: 100%;
+            flex-direction: column;
+            padding: 2rem 0 1rem 0;
+        }
+    
+        .container-services .btn-services {
+            display: block;
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2.5rem;
+        }
+    
+        .colun-text-description .title-text {
+            font-size: 2rem;
+        }
+    
+        .colun-text-description .description-text {
+            font-size: 1rem;
+        }
+    
+        .container-item-card-services .title-services {
+            font-size: 1.2rem;
+        }
+    
+        .container-item-card-services .description-services {
+            font-size: .8rem;
+        }
+    
+        .container-item-card-services {
+            padding: 5px;
+        }
+    
+        .container-card-services {
+            width: auto;
+            margin: 1rem 0;
+        }
+    
+        .colun-text-description {
+            width: auto;
+        }
+    
+        .container-item-card-services#car-services-seg {
+            margin: 1rem 0;
+        }
+    
+    
+        /* CONTACT */
+        .container-contact {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 15rem;
+        }
+    
+        .container-contact .content-contact {
+            width: 65%;
+            flex-direction: column;
+            height: auto;
+            padding: 1rem;
+            margin: 0;
+        }
+    
+        .content-contact .container-my-information {
+            width: 100%;
+            padding: 1rem;
+        }
+    
+        .container-my-information .text-information .title-information {
+            font-size: 2rem;
+        }
+    
+        .item-card-my-information .card-description {
+            font-size: 1.2rem;
+            color: var(--cor-grafit-70);
+        }
+    
+        .card-description p:nth-child(1),
+        .card-description p:nth-child(2) {
+            display: none;
+        }
+    
+        .container-contact .container-card .item-card-my-information {
+            padding: 0;
+        }
+    
+        .container-form-contact {
+            width: 90%;
+        }
+    
+        .container-form-contact .content-form-contact .box-form-contact {
+            flex-direction: column;
+        }
+
+    /* FOOTER */
+
+}
+
+/* Estilos*/
+@media (max-width: 786px){
+/* MENU */
+    .container-menu{
+        background: transparent !important;
+    }
+    .container-menu .container-logo,
+    .container-menu .content-menu
+    {
+        display: none !important;
+    }
+    .container-menu header{
+        display: flex !important;
+    }
+/* HOME */
+    .container-presentation {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .content-perfil {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-perfil img {
+        position: absolute;
+        height: 100%;
+    }
+
+    .text .title {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .content-presentation {
+        width: 100%;
+    }
+
+    .container-statistic {
+        margin-top: 2rem;
+    }
+
+
+    /* ABOUT */
+    .container-about {
+        height: 90%;
+    }
+
+    .content-about {
+        width: 80%;
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .box-about {
+        margin-top: 1rem;
+    }
+
+    .about-picture-social-media {
+        width: 50%;
+        display: flex;
+    }
+
+    .about-picture-social-media img {
+        height: auto;
+        width: 100%;
+        margin-right: 1rem;
+    }
+
+    .content-social-media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-social-media i {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .container-bio {
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+
+    .text-bio .title {
+        font-size: 38px;
+    }
+
+    .text-bio .description {
+        font-size: 14.5px;
+    }
+
+    .text-bio .btn {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 30%;
+    }
+
+    /* PROCESS */
+    .container-process {
+        height: auto;
+    }
+
+    .work-process {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .title-process {
+        font-size: 2rem;
+    }
+
+    .description-process {
+        font-size: 1rem;
+    }
+
+    .box-process {
+        padding: 0;
+        width: auto;
+        flex-direction: column;
+    }
+
+    .box-process .item-process:nth-child(2),
+    .box-process .item-process {
+        flex-direction: column;
+    }
+
+    .item-process {
+        margin: 1rem 0;
+        padding: 0 1rem 0 0;
+    }
+
+    .container-item {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .container-item i {
+        font-size: 2rem;
+        padding: 5px;
+    }
+
+    .container-item .title-item {
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+
+    .container-item .description-item {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    /* PORTFOLIO */
+    .container-portfolio {
+        padding-top: 0;
+        overflow: hidden
+    }
+
+    .content-portfolio {
+        margin-bottom: 2rem;
+    }
+
+    .box-item-portfolio {
+        height: auto;
+        width: 85%;
+    }
+
+    .title-portfolio .description {
+        width: auto;
+    }
+
+    .container-description-item-portfolio {
+        padding: .5rem;
+    }
+
+    .description-item-portfolio {
+        height: auto;
+        padding-bottom: 0;
+    }
+
+    .container-description-item-portfolio .btn-item-portfolio {
+        flex-direction: column;
+    }
+
+    .container-description-item-portfolio .btn-portfolio {
+        margin-top: 1rem;
+        width: 60%;
+        display: block;
+    }
+
+    /* CALL */
+    .content-call-action {
+        width: 90%;
+    }
+
+    .content-call-action .description-call-action {
+        color: var(--cor-grafit-50);
+    }
+
+    .container-call-action .btn-call-action {
+        font-family: 800;
+        font-size: .6rem;
+    }
+
+    /* SERVICES  */
+    .container-services {
+        justify-content: center;
+        padding: 2rem 1rem;
+        height: 150%;
+    }
+
+    .content-services {
+        height: 100%;
+        flex-direction: column;
+        padding: 2rem 0 1rem 0;
+    }
+
+    .container-services .btn-services {
+        display: block;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .colun-text-description .title-text {
+        font-size: 2rem;
+    }
+
+    .colun-text-description .description-text {
+        font-size: 1rem;
+    }
+
+    .container-item-card-services .title-services {
+        font-size: 1.2rem;
+    }
+
+    .container-item-card-services .description-services {
+        font-size: .8rem;
+    }
+
+    .container-item-card-services {
+        padding: 5px;
+    }
+
+    .container-card-services {
+        width: auto;
+        margin: 1rem 0;
+    }
+
+    .colun-text-description {
+        width: auto;
+    }
+
+    .container-item-card-services#car-services-seg {
+        margin: 1rem 0;
+    }
+
+
+    /* CONTACT */
+    .container-contact {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 15rem;
+    }
+
+    .container-contact .content-contact {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .content-contact .container-my-information {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .container-my-information .text-information .title-information {
+        font-size: 2rem;
+    }
+
+    .item-card-my-information .card-description {
+        font-size: 1.2rem;
+        color: var(--cor-grafit-70);
+    }
+
+    .card-description p:nth-child(1),
+    .card-description p:nth-child(2) {
+        display: none;
+    }
+
+    .container-contact .container-card .item-card-my-information {
+        padding: 0;
+    }
+
+    .container-form-contact {
+        width: 90%;
+    }
+
+    .container-form-contact .content-form-contact .box-form-contact {
+        flex-direction: column;
+    }
+
+    /* FOOTER */
+    .container-footer {
+        height: 50%;
+    }
+
+    .container-footer .content-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .container-card {
+        flex-direction: row;
+        height: auto;
+        width: auto;
+    }
+}
+
+
+/* Estilos para telas entre 768px e 1023px (tablets) */

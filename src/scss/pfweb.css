@@ -1,0 +1,61 @@
+#view{
+    padding: 0;
+}
+.pfWeb-erro{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    z-index: 500;
+    /* background: #fc3030; */
+    transition: all;
+    transform: translateX(-100rem);
+    border-bottom-right-radius: 6px;
+    animation: mostrarErroINTERNO 2s forwards;
+}
+.pfWeb-erro .infErro500::before{
+    content: 'ERRO[500]! ';
+    font-weight: 700;
+    font-size: 2rem;
+    color: #f84444;
+}
+.pfWeb-erro .infErro500 p::before{
+    content: '1. ';
+}
+
+.pfWeb-erro .infErro405::before{
+    content: 'ERRO[405]! ';
+    font-weight: 700;
+    font-size: 2rem;
+    color: #f84444;
+}
+.pfWeb-erro .message405::before {
+    content: '1. Extensão sockets do php não habilitada!';
+}
+
+
+.pfWeb-erro p{
+    color: #ff0000;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.pfWeb-erro p span{
+    /* background: #f36c6c; */
+    color: #5f2525;
+    font-weight: 700;
+    padding: 5px;
+}
+
+@keyframes mostrarErroINTERNO {
+    0%{
+        transform: translateX(-100rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+

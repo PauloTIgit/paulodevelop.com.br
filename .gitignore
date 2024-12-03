@@ -1,0 +1,4 @@
+/vendor
+.htaccess
+settings.json
+app/setting/Mail.php

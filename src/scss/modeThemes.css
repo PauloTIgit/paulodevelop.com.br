@@ -1,0 +1,202 @@
+.container-mode{
+    display: none;
+    position: absolute;
+    top: 0;
+    padding-top: .5rem;
+}
+.container-mode #btnMode{
+    margin-right: 1.5rem;
+    position: fixed;
+    right: 0;
+    border: none;
+    padding: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0, 0, 0.79, 0.2);
+    z-index: 750;
+}
+.container-mode #btnMode.night{
+    font-weight: bolder;
+    color: var(--cor-grafit-1000);
+    background: var(--cor-grafit-100);
+    box-shadow: 0 0 .5rem var(--cor-ter-100);
+}
+
+.container-mode #btnMode.morning{
+    font-weight: bolder;
+    color: var(--cor-ter-1000);
+    background: var(--cor-ter-500);
+    border: solid 1px var(--cor-ter-500) ;
+    box-shadow: 0 0 .5rem #000;
+}
+    
+
+/* Estilo para tema claro */
+body.mode-white{
+    background: var(--mode-white-1000);
+}
+.mode-white *{
+    transition: all 1s;
+}
+.mode-white .container-menu {
+    background: var(--mode-white-1000);
+    z-index: 700;
+}
+/* Estilos para tema escuro */
+    /* MENU */
+        body.mode-dark{
+            background: var(--mode-dark-1000);
+        }
+        .mode-dark * {
+            transition: all 1s;
+        }
+        .mode-dark .container-menu{
+            background: var(--mode-dark-1000);
+        }
+        .mode-dark .navbar a{
+            color: var(--mode-white-1000);
+        }
+        .mode-dark .linksMenuMobile{
+            border: var(--mode-white-1000);
+            color: var(--mode-white-1000);
+        }
+    /* HOME */
+        .mode-dark .container-home{
+            background: var(--mode-dark-1000);
+        }
+        .mode-dark  .container-home .text .title{
+            color: var(--mode-white-1000);
+        }
+        .mode-dark  .container-home .text .description{
+            color: var(--mode-dark-grafit-50);
+        }
+        .mode-dark  .container-home .container-button .button{
+            background: var(--mode-dark-pry-500);
+            border: solid 1px var(--mode-dark-pry-500);
+        }
+        .mode-dark .container-button .button:hover{
+            border: solid 1px var(--mode-dark-pry-500);
+        }
+    /* ABOUT */
+        .mode-dark .container-about{
+            background: var(--mode-dark-1000);
+        }
+        .mode-dark .content-about{
+            background: var(--mode-dark-qua-800);
+            box-shadow: 0 5px 15px var(--mode-dark-grafit-800);
+            box-shadow: none;
+        }
+        .mode-dark .container-about .text-bio .title,
+        .mode-dark .container-about .description.text-bio1,
+        .mode-dark .container-about .description.text-bio2{
+            color: var(--mode-dark-grafit-50);
+        }
+        .mode-dark .content-social-media{
+            background: var(--mode-dark-qua-800);
+            box-shadow: none;
+        }
+        .mode-dark .container-about .btn a{
+            border-color: var(--mode-dark-pry-500);
+            color: var(--mode-dark-pry-500);
+            }
+    /* PROCESS */
+        .mode-dark .container-process{
+            background: var(--mode-dark-grafit-1000);
+        }
+        .mode-dark .container-process .title-process,
+        .mode-dark .container-process .description-process,
+        .mode-dark .container-process .title-item,
+        .mode-dark .container-process .description-item{
+            color: var(--mode-white-1000);
+        }
+
+        .mode-dark .container-process .container-item{
+            background: var(--mode-dark-grafit-500);
+            box-shadow: none;
+        }
+        .mode-dark .container-process .container-item i{
+            background: var(--mode-dark-grafit-1000);
+        }
+    /* PORTFOLIO */
+        .mode-dark .container-portfolio{
+            background: var(--mode-dark-grafit-1000);
+        }
+        .mode-dark .container-portfolio .title,
+        .mode-dark .container-portfolio .title-portfolio .description,
+        .mode-dark .container-portfolio .description-item-portfolio .title-item-portfolio{
+            color: var(--mode-white-1000);
+        }
+
+        .mode-dark .container-portfolio .item-portfolio {
+            background: var(--mode-dark-grafit-500);
+            border: solid 1px var(--mode-dark-grafit-500);
+            box-shadow: none;
+        }
+
+        .mode-dark .container-portfolio .description-item-portfolio span,
+        .mode-dark .description-item-portfolio .description-portfolio{
+            color: var(--mode-dark-grafit-100);
+        }
+        .mode-dark .container-description-item-portfolio .btn-portfolio{
+            color: var(--mode-dark-pry-500);
+            border-color: var(--mode-dark-pry-500);
+        }
+    /* CALL */
+        .mode-dark .container-call-action{
+            background: var(--mode-dark-qua-500);
+        }
+        .mode-dark .container-call-action .btn-call-action{
+            border-color: var(--mode-dark-pry-500);
+            color: var(--mode-dark-pry-500);
+        }
+    /* SERVICES */
+        .mode-dark .container-services{
+            background: var(--mode-dark-grafit-1000);
+        }
+        .mode-dark .colun-text-description .title-text,
+        .mode-dark .container-item-card-services .title-services {
+            color: var(--mode-white-1000);
+        }
+        .mode-dark .colun-text-description .description-text,
+        .mode-dark .container-item-card-services .description-services{
+            color: var(--mode-dark-grafit-70);
+        }
+        .mode-dark .container-item-card-services{
+            background: var(--mode-dark-grafit-500);
+            border: none;
+        }
+    /* CONTACT */
+        .mode-dark .container-contact{
+            background: var(--mode-dark-grafit-1000);
+        }
+        .mode-dark .container-contact .content-contact{
+            background: var(--mode-dark-grafit-500);
+        }
+        .mode-dark .container-my-information .text-information .title-information,
+        .mode-dark .container-form-contact .form-contact-title{
+            color: var(--mode-white-1000);
+        }
+        .mode-dark .container-my-information .text-information .description-information{
+            color: var(--mode-dark-grafit-70);
+        }
+
+        .mode-dark .card-description p:nth-child(1){
+            color: var(--mode-dark-grafit-50);
+        }
+        .mode-dark .card-description p:nth-child(2) {
+            color: var(--mode-dark-grafit-100);
+        }
+
+        .mode-dark .container-card .link-card-my-information:hover{
+            box-shadow: var(--mode-dark-grafit-1000);
+        }
+        .mode-dark .container-card .item-card-my-information:hover{
+            border: solid 1px var(--mode-dark-grafit-100);
+        }
+        .mode-dark .form-contact .form-label{
+            color: var(--mode-dark-grafit-100);
+        }
+        .mode-dark .form-contact .input{
+            background: none;
+            color: var(--mode-white-1000);
+        }

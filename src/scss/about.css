@@ -1,0 +1,111 @@
+.container-about{
+    display: grid;
+    height: 90%;
+    background: transparent;
+}
+
+.box-about{
+    padding-top: 5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.content-about{
+    width: 50%;
+    background: #0c0c0c;
+    padding: 112px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 15px 0px #393535;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.container-social-media{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-social-media{
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0px 20px 20px 0px #ebebeb;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.content-social-media i{
+    font-size: 1.5rem;
+    color: var(--cor-pry-800);
+    padding: 15px;
+    border-radius: 4px;
+    
+}
+
+.content-social-media i:hover{
+    background: var(--cor-pry-800);
+    color: #ffffff;
+}
+
+.about-picture-social-media img{
+    height: 468px;
+    border: solid 1px #F3F4F6;
+    border-radius: 10px;
+}
+
+.container-bio{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-bio .title{
+    font-family: var(--font-montserra);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-grafit-800);
+}
+
+.text-bio .description{
+    font-size: 1.3rem;
+    font-family: var(--font-montserra);
+    font-weight: 400;
+    color: var(--cor-grafit-500);
+}
+
+.description.text-bio1{
+    padding: 1rem 0;
+}
+
+.description.text-bio2 {
+    padding-bottom: 1.5rem;
+}
+
+.btn{
+    padding: .5rem 0;
+}
+
+.btn a {
+    font-family: var(--font-montserra);
+    font-weight: 500;
+    text-decoration: none;
+    border: solid 1px var(--cor-pry-800);
+    border-radius:4px ;
+    padding: .5rem 1rem;
+    color: var(--cor-pry-800);
+}
+
+.btn a:hover{
+    background: var(--cor-pry-800);
+    color: #ffffff
+}

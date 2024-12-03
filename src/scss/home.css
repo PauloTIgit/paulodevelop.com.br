@@ -1,0 +1,194 @@
+/* Importando o CSS base da biblioteca AOS (não é necessário se você já incluiu via CDN) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css');
+
+.container-home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 66%;
+    width: auto;
+}
+
+.content-presentation{
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 63%;
+}
+
+.text .box{
+    display: block;
+    height: 5px;
+    background: var(--cor-seg-800);
+}
+
+.text .box.cont1{
+    width: 90px;
+    margin-bottom: 2px;
+}
+
+.text .box.cont2 {
+    width: 120px;
+}
+.text .box span{
+    display: block;
+    height: 5px;
+}
+
+.text .title{
+    font-size: 5rem;
+    font-weight: 500;
+    font-family: var(--font-montserra);
+    color: var(--cor-grafit-800);
+    margin-bottom: 2rem;
+} 
+
+.text .description{
+    font-family: var(--font-montserra);
+    font-size: 1rem;
+    color: var(--cor-grafit-500);
+    font-weight: 500;
+}
+
+.description span{
+    color: var(--cor-grafit-800);
+    font-weight: 600;
+}
+
+.container-button .button{
+    display: block;
+    width: 7rem;
+    border: none;
+    cursor: pointer;
+    border: solid 1px var(--cor-pry-800);
+    border-radius: 4px;
+    color: #ffffff;
+    background: var(--cor-pry-800);
+    font-family: var(--font-montserra);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    padding: .5rem .6rem;
+    text-decoration: none;
+}
+
+.container-button .button:hover{
+    background: none;
+    color: var(--cor-pry-800);
+
+}
+
+.container-statistic{
+    height: calc(100% - 63% - 53px);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.content-statistic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-statistic{
+    background: var(--cor-pry-100);
+    width: calc(99% / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.item-statistic p{
+    text-align: center;
+    font-family: var(--font-montserra);
+    font-weight: 500;
+}
+
+.item-statistic .title{
+    color: var(--cor-grafit-800);
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: .5rem;
+}
+
+.item-statistic .description{
+    color: var(--cor-grafit-500);
+    font-size: 1rem;
+}
+
+.content-perfil{
+    height: 100%;
+}
+
+.content-perfil img{
+    border-radius: 15px;
+    height: 100%;
+}
+
+
+
+/** ELEMENTO DE EFEITOS **/
+
+.fade-up {
+    animation: fade-up 2s forwards;
+}
+
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.fade-left {
+    animation: fade-left 2s forwards;
+}
+
+@keyframes fade-left {
+    0% {
+        opacity: 0;
+        transform: translateX(20rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-right {
+    animation: fade-right 2s forwards;
+}
+
+@keyframes fade-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-20rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
