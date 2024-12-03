@@ -1,0 +1,23 @@
+#||::::::::::::::::::::::::::::::::||
+#||             PF WEB             ||
+#||  configuration for the server  ||
+#||          Version 0.6           ||
+#||::::::::::::::::::::::::::::::::||
+#
+#
+#
+# Esta é uma regra de redirecionamento
+RewriteEngine On
+RewriteRule ^old-url$ /new-url [R=301,L]
+
+# # Esta é uma regra para remover a extensão .php dos arquivos
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# Define a página de acordo com o erro
+ErrorDocument 404 "<script> window.location = '../?404=404';</script>"
+
+
+# # Restringir o acesso a diretórios, apenas os arquivos podem ser acessados
+Options -Indexes
