@@ -26,13 +26,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./src/scss/main.css" >
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous"><!-- ICON -->
 
 </head>
 
 <body>
 
-
-    <script src="https://kit.fontawesome.com/0b3e36b549.js" crossorigin="anonymous"></script><!-- ICON -->
 
     <style>
         .container-btnUp{
@@ -58,7 +58,7 @@
         }
     </style>
     <div class="container-btnUp" id="container_btnUp">
-        <i class="fa fa-angle-up" aria-hidden="true" id="angle_up"></i>
+        <i class="ph ph-caret-up" id="angle_up"></i>
     </div>
     <script>
         document.querySelector('#container_btnUp').addEventListener('click', function () {

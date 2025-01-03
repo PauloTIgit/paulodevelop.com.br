@@ -67,24 +67,24 @@ if ($imagens != []) {
             <div class="box-process">
                 <div class="item-process">
                     <div style="opacity: 0;" class="container-item efeito-fade-right">
-                        <i class="fa-solid fa-clipboard-list"></i>
+                        <i class="ph ph-strategy"></i>
                         <p class="title-item">1. Planejar</p>
                         <p class="description-item">Desenvolver estratégias, a identificar recursos necessários e compreender as expectativas.</p>
                     </div>
                     <div style="opacity: 0;" class="container-item efeito-fade-right">
-                        <i class="fa-solid fa-chart-line"></i>
+                        <i class="ph ph-security-camera"></i>
                         <p class="title-item">2. Monitorar</p>
                         <p class="description-item">Acompanhar o progresso do projeto, identificar possíveis desvios e realizar ajustes conforme necessário para garantir que os objetivos sejam alcançados.</p>
                     </div>
                 </div>
                 <div class="item-process">
                     <div style="opacity: 0;" class="container-item efeito-fade-right">
-                        <i class="fa-solid fa-pencil"></i>
+                        <i class="ph ph-arrows-clockwise"></i>
                         <p class="title-item">3. Otimizar </p>
                         <p class="description-item">Analisar os resultados obtidos, identificar pontos fortes e áreas de melhoria e utilizar essas informações para otimizar o projetos.</p>
                     </div>
                     <div style="opacity: 0;" class="container-item efeito-fade-right">
-                        <i class="fa-solid fa-rocket"></i>
+                        <i class="ph ph-rocket-launch"></i>
                         <p class="title-item">4. Lançar</p>
                         <p class="description-item">E Realizada as últimas verificações para garantir que todos os objetivos foram alcançados, antes da transição para a próxima fase ou a entrega do projeto.</p>
                     </div>
@@ -137,7 +137,7 @@ if ($imagens != []) {
                                 <p class="description-portfolio">Serviço de maquiagem, plano de assinatura e agendamento online!</p>
                             </div>
                             <div class="btn-item-portfolio">                                
-                                <a class="btn-portfolio" href="https://makeflix.renataclara.com" target="_black">Visitar <i class="fa-solid fa-arrow-right"></i></a>
+                                <a class="btn-portfolio" href="https://makeflix.renataclara.com" target="_black">Visitar <i class="ph ph-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ if ($imagens != []) {
                                 <p class="description-portfolio">Apresentação do servico de personal trainer</p>
                             </div>
                             <div class="btn-item-portfolio">
-                                <a class="btn-portfolio" href="https://thalispersonal.paulodevelop.com/" target="_black">Visitar <i class="fa-solid fa-arrow-right"></i></a>
+                                <a class="btn-portfolio" href="https://thalispersonal.paulodevelop.com/" target="_black">Visitar <i class="ph ph-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ if ($imagens != []) {
                                 <p class="description-portfolio">Site para concessionaria apresentação de carros</p>
                             </div>
                             <div class="btn-item-portfolio">
-                                <a class="btn-portfolio" href="https://auto.paulodevelop.com/" target="_black">Visitar <i class="fa-solid fa-arrow-right"></i></a>
+                                <a class="btn-portfolio" href="https://auto.paulodevelop.com/" target="_black">Visitar <i class="ph ph-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@ if ($imagens != []) {
             </div>
             <div class="container-btn-call-action">
                 <a class="btn-call-action" href="https://wa.me/5562999589427">Vamos colaborar
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="ph ph-arrow-right"></i>
                 </a>
             </div>
         </div>
@@ -316,16 +316,16 @@ if ($imagens != []) {
                 </div>
                 <div class="container-social-media">
                     <a href="https://www.instagram.com/pauloferreira.tec/" target="_blank" class="instagram">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="ph ph-instagram-logo"></i>
                     </a>
                     <a href="https://t.me/pauloferreiradev" target="_blank" class="telegram">
-                        <i class="fa fa-telegram" aria-hidden="true"></i>
+                        <i class="ph ph-telegram-logo"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/paulo-ferreiradevs" target="_blank" class="linkedin">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="ph ph-linkedin-logo"></i>
                     </a>
                     <a href="https://github.com/PauloTIgit" target="_blank" class="github">
-                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <i class="ph ph-github-logo"></i>
                     </a>
                 </div>
             </div>
@@ -376,7 +376,7 @@ if ($imagens != []) {
 
                         </div>
                         <div class="btn-form-contact">
-                            <button type="submit">Enviar <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                            <button type="submit">Enviar <i class="ph ph-paper-plane-tilt"></i></button>
                         </div>
                     </form>
                 </div>
@@ -392,7 +392,7 @@ if ($imagens != []) {
         $('form').on('submit', function(event) {
             event.preventDefault(); // Impede o envio padrão do formulário
 
-            $('.btn-form-contact').html('<button> Enviando... <i class="fa fa-spinner fa-spin"></i> </button>');
+            $('.btn-form-contact').html('<button> Enviando... <i class="ph ph-spinner-gap"></i> </button>');
 
             // Coleta os dados do formulário
             var formData = $(this).serialize();
